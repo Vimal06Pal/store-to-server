@@ -1,38 +1,4 @@
-##
-##
-##
-##from tkinter import Tk,Button,Entry
-##import random
-##
-##class hotel:
-##    def __init__(self,win):
-##        self.win=win
-##        win.title('first gui')
-##
-##        self.entry=Entry(win)
-##        self.entry.pack()
-##
-##        self.click_button=Button(win,text='click',command=self.click)
-##        self.click_button.pack()
-##        
-##        self.confirm_button=Button(win,text='click',command=self.confirm)
-##        self.confirm_button.pack()
-##
-##    def click(self):
-##        self.r=str(random.randint(0,100000))
-##        print(self.r)
-##
-##    def confirm(self):
-##        if self.r==self.entry.get():
-##            print('access')
-##        else:
-##            print('retry')
-##
-##root=Tk()
-##my_gui_hotel=hotel(root)
-##root.mainloop()
-##
-##        
+##       
 from tkinter import Tk,Button,Entry
 from Adafruit_IO import Client, RequestError, Feed
 import os
